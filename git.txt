@@ -1,0 +1,9 @@
+git init
+git remote add origin https://githup.com/fengmingqishan/competition
+git branch -a
+git remote -v
+git clone https://githup.com/fengmingqishan/competition
+git add test.ipynb
+git add git.txt
+git commit -m "update"
+git push origin master

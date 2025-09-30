@@ -1,20 +1,16 @@
 git init
-<<<<<<< HEAD
+
 git remote remove origin
 git remote add origin https://github.com/fengmingqishan/competition
 git remote -v
 git branch -a
-=======
-git remote add origin https://githup.com/fengmingqishan/competition
-git branch -a
-git remote -v
->>>>>>> f5bac1cd75ff8f9fb47c72612b70ddb25bef0cb6
-git clone https://githup.com/fengmingqishan/competition
+
 git add test.ipynb
 git add git.txt
+git add git.txt readme.md test.ipynb
 git commit -m "update"
-<<<<<<< HEAD
-git push origin master
-=======
-git push origin master
->>>>>>> f5bac1cd75ff8f9fb47c72612b70ddb25bef0cb6
+
+git push origin main
+
+git push origin main
+

@@ -5,12 +5,15 @@ git remote add origin https://github.com/fengmingqishan/competition
 git remote -v
 git branch -a
 
+git clone https://github.com/fengmingqishan/competition.git
+
 git add test.ipynb
 git add git.txt
 git add git.txt readme.md test.ipynb
 git commit -m "update"
 
-git push origin main
+git pull origin main --no-rebase --allow-unrelated-histories
+git pull origin main
 
 git push origin main
 

@@ -1,5 +1,8 @@
 git init
-git remote add origin https://githup.com/fengmingqishan/competition
+git remote remove origin
+git remote add origin https://github.com/fengmingqishan/competition
+git remote -v
+git branch -a
 git clone https://githup.com/fengmingqishan/competition
 git add test.ipynb
 git add git.txt
